@@ -1,0 +1,44 @@
+	<!DOCTYPE html> <!--UPHG: Unidades de medida | phgwpi APPS-->
+	<html lang="es">
+
+	  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	 <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+	 <title>UPHG: Romanos y Arábigos</title>
+	 <link rel="shortcut icon" href="dossier/uphg.ico" type="image/x-icon">
+	 <link rel="stylesheet" href="dossier/uphg.css" />
+            
+
+	 <script src="dossier/uphg.js"></script>
+	  </head>
+
+	  <body>
+	  <header>
+	  <h2>N&uacute;meros romanos y Ar&aacute;bigos</h2>           
+          </header>
+	       <br><br>
+	<section>
+
+	<form name="fnr">
+
+       <div id="text-roman">
+        <input id="number" placeholder="Arábigo" type="text" class="camp"> 
+        <input id="roman" placeholder="Romano" type="text" class="camp"> 
+       <input id="roman2"  placeholder="Comprobar"  type="text" class="camp">
+       </div> 
+
+
+    <div class="calcular">
+   <a href="uphg.html"><input type="Button" class="bou" value="<<"></a>
+	<input class="bou" type="Button" name="" value=" Borrar " onClick="borrando(this.form)">
+	<input class="bou" type="button"  onClick="convertRoman()" value="Rom>Arab">
+	<input class="bou" type="button" onClick="convertToRoman()" value="Arab>Rom">
+	<input type="button" class="bou" onClick="correctRoman()" value="Validar"> 
+        </div>
+	
+
+	</form>
+	</section>
+	 
+	  </body>
+	</html>

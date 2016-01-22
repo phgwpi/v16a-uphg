@@ -1,0 +1,48 @@
+	<!DOCTYPE html> <!--UPHG: Unidades de medida | phgwpi APPS-->
+	<html lang="es">
+
+	  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	 <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+	 <title>Presión</title>
+	 <link rel="shortcut icon" href="dossier/uphg.ico" type="image/x-icon">
+	 <link rel="stylesheet" href="dossier/uphg.css" />
+            
+
+	 <script src="dossier/uphg.js"></script>
+	  </head>
+
+	  <body>
+	  <header>
+	  <h2>Presi&oacute;n</h2>
+          </header>
+	    	       
+	<section>
+
+	<form name="fpres">
+
+        <div>
+	<input id="camp" type="Text" name="operando1">
+        </div>
+
+        <div>
+        <textarea id="resultado" type="Text" name="resultado" value=""></textarea>
+        </div>
+
+       <div class="calcular">
+        	
+   <a href="uphg.html"><input type="Button" class="bou" value="<<"></a>
+	<input class="bou" type="Button" name="" value=" Borrar " onClick="borrando(this.form)">
+	<input class="bou" type="Button" name="" value="Bar" onclick="bar()">
+	<input class="bou" type="Button" name="" value="Kg/cm2" onclick="kgcm()">
+	<input class="bou" type="Button" name="" value="PSI" onclick="psi()">
+	<input class="bou" type="Button" name="" value="Atm&oacute;sfera" onclick="atm()">
+   <input class="bou" type="Button" name="" value="HectoPas"onclick="hpa()">
+   <input class="bou" type="Button" name="" value="Pascal"onclick="pascal()">
+         </div>
+	
+	</form>
+	</section>
+	 
+	  </body>
+	</html>
